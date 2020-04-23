@@ -1,3 +1,37 @@
-* {
-    box-sizing: border-box;
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    color: #f2f1f0;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #7a04dd;
+    height: 60px;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-list {
+    float: right;
+}
+
+.header-list li {
+    float: left;
+    margin-right: 10px;
+}
+
+.top-wrapper {
+    background-color: aqua;
+    height: 300px;
+}
+
