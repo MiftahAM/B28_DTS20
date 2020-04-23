@@ -1,5 +1,4 @@
 body {
-    margin: 0 auto;
     font-family: 'Roboto Slab', serif;
     color: #f2f1f0;
 }
@@ -30,8 +29,8 @@ header {
     margin-right: 10px;
 }
 
-.top-wrapper {
-    background-color: aqua;
-    height: 300px;
+footer {
+    background-color: #7a04dd;
+    height: 100px;
 }
 
