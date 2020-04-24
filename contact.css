@@ -11,10 +11,7 @@
     max-width: 90vh;
 }
 
-.background {
-  display: flex;
-  min-height: 100vh;
-}
+
 
 .container {
   flex: 0 1 700px;
