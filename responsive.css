@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 670px) {
   .screen-body {
     padding: 40px;
   }
@@ -41,5 +41,17 @@
   }
   .screen{
     width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+  .top-wrapper {
+    text-align: left;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
   }
 }
