@@ -9,6 +9,9 @@ body {
 a {
     text-decoration: none;
 }
+.clear {
+  clear: left;
+}
 
 .container {
     max-width: 1170px;
@@ -48,7 +51,9 @@ z-index: 10;
     color: white;
     text-align: center;
   }
-
+.fa {
+  margin-right: 5px;
+}
   
 
   
@@ -79,6 +84,15 @@ z-index: 10;
   .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 10px 0;
+  display:  none;
+ 
+}
 
   footer img {
     width: 125px;
