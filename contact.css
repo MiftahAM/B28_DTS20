@@ -7,6 +7,9 @@
 }
 
 
+.contact-us{
+    max-width: 90vh;
+}
 
 .background {
   display: flex;
@@ -23,7 +26,7 @@
   position: relative;
   background: #3e3e3e;
   border-radius: 15px;
-  width: 50%;
+  width: 100%;
 }
 
 .screen:after {
