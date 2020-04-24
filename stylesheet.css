@@ -1,20 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     font-family: 'Roboto Slab', serif;
-    color: #f2f1f0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px;
+  }
 
-header {
-    background-color: #7a04dd;
-    height: 60px;
-}
 
 .header-logo {
     float: left;
@@ -29,8 +31,67 @@ header {
     margin-right: 10px;
 }
 
-footer {
-    background-color: #7a04dd;
-    height: 100px;
+
+header {
+height: 65px;
+width: 100%;
+background-color:rgba(107, 20, 107, 0.73) ;
+position :fixed;
+top: 0;
+z-index: 10;
 }
+  
+.top-wrapper {
+    padding: 180px 0 200px 0;
+    background-image: url(https://c0.wallpaperflare.com/preview/1/406/520/codes-coding-hacker-hacking.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  
+
+  
+  .logo {
+    width: 124px;
+    margin-top: 15px;
+    margin-left: 25px
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    background-color:#512b58;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 
