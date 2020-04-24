@@ -102,8 +102,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  color: #ea1d6f;
-  font-size: 26px;
+  color: #ffffff;
+  font-size: 36px;
 }
 
 .app-title:after {
@@ -114,13 +114,13 @@
   bottom: -10px;
   width: 25px;
   height: 4px;
-  background: #ea1d6f;
+  background: #fff;
 }
 
 .app-contact {
   margin-top: auto;
   font-size: 8px;
-  color: #888;
+  color: rgb(173, 173, 173);
 }
 
 .app-form-group {
@@ -142,7 +142,7 @@
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
+  color: rgb(233, 233, 233);
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
@@ -150,7 +150,7 @@
 }
 
 .app-form-control::placeholder {
-  color: #666;
+  color: rgb(170, 170, 170);
 }
 
 .app-form-control:focus {
@@ -167,4 +167,13 @@
     color: white;
 }
 
+#btn-primary:hover{
+    margin-top: 20px;
+    height: 54px;
+    width: 100%;
+    background: #6a02be;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
 
