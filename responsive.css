@@ -1,5 +1,17 @@
 @media (max-width: 1000px){
   /* // buat bikin css untuk responsive design */
+  .profile {
+    width: 60%;
+  }
+
+  .profile2 {
+    width: 90%;
+  }
+  
+  .studies {
+    width: 40%;
+  }
+
 }
 
 
@@ -53,5 +65,17 @@
   }
   .menu-icon {
     display: block;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .profile2 {
+    width: 100%;
+  }
+  
+  .studies {
+    width: 60%;
   }
 }
